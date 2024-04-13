@@ -74,7 +74,7 @@ function setAlarm() {
   alarmTime = time;
   isAlarmOn = true;
   menu.classList.add("disable");
-  btn.innerText = "Clear Alarm";
+  btn.innerText = "Stop Alarm";
 }
 
 btn.addEventListener("click", setAlarm);
